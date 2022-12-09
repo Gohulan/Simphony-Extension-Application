@@ -32,11 +32,13 @@ namespace MyExtensionApplication
         {
             // TODO: rename method and implement
             OpsContext.ShowMessage(string.Format("Hello World from {0}", this.ApplicationName));
+            OpsContext.ShowMessage(string.Format("Welcome to Simphony"));
         }
     }
 
     /// <summary>
     ///  Implements interface used by Simphony POS Client to create an instance of the extension application
+    /// This extension application is developed by Gohulan, feel free to contact me on gohulan@outlook.com
     /// </summary>
     public class ApplicationFactory : IExtensibilityAssemblyFactory
     {
